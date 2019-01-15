@@ -39,7 +39,7 @@ VM is one quick and easy way:
 
 ```
 docker-machine create default --driver virtualbox
-echo eval $(docker-machine env default)
+eval $(docker-machine env default)
 ```
 
 You will need the DOCKER_HOST value to configure Terraform.  For example:
